@@ -18,7 +18,7 @@
     font-size: 50px;
     font-weight: bold;
     color: #980b1c;
-    filter: drop-shadow(3px 3px 4px #ffffff);
+    filter: drop-shadow(3px 3px 2px #ffffff);
     margin-right: 20%;
   }
 }

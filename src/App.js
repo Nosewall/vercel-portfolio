@@ -6,6 +6,7 @@ import Experience from './experience';
 import AboutMe from './aboutMe';
 import Footer from './footer';
 import Banner from './banner';
+import Projects from './projects';
 
 function App() {
 
@@ -14,16 +15,14 @@ function App() {
   return (
     <div className="App">
       <div className="content">
-      <Navbar/>
-      <Banner/>
-      <AboutMe/>
-      <Experience />
-      <Contact />
-      <Footer/>
-        <div className="bannerDiv"></div>
-        <div className="aboutMeDiv"></div>
-        <div className="experienceDiv"></div>
-        <div className="contactDiv"></div>
+        <div className="navbarDiv"><Navbar /></div>
+        <div className="bannerDiv"><Banner/></div>
+        <div className="aboutMeDiv"><AboutMe/></div>
+        <div className="experienceDiv"><Experience /></div>
+        <div className="projectsDiv"><Projects/></div>
+        <div className="contactDiv"><Contact /></div>
+        <div className="footerDiv"><Footer/></div>
+
       </div>
     </div>
   );
