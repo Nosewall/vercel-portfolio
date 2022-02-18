@@ -8,21 +8,24 @@ const Experience = () => {
 
       <p className="currentSkillsTitle">Current technology proficiencies</p>
 
-      <ul className="currentSkills">
+      <div className="skillLists">
+        <ul className="currentSkillsList1">
         <li>Java</li>
         <li>JavaScript</li>
         <li>C</li>
         <li>C#</li>
         <li>CSS</li>
         <li>HTML</li>
+      </ul>
+      <ul className="currentSkillsList2">
         <li>Python</li>
         <li>SQL</li>
         <li>Unity</li>
         <li>Wordpress</li>
         <li>MongoDB</li>
         <li>Firebase</li>
-
-      </ul>
+        </ul>
+      </div>
 
       <p className="futureSkillsTitle">Skills that I'm working on developing</p>
       <ul className="futureSkills">

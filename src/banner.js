@@ -1,21 +1,31 @@
-const Banner = () => {
-  return ( 
-    <div className="banner">
-      <div className="portrait">
-        <img className = "portraitImg" src="Images/portrait.png" alt="portrait of me"/>
-      </div>
-      <div className="bannerText">
-        <p className ="name">Nolan Nordwall</p>
-        <ul className = "bannerBullets">
-          <li>Fast</li>
-          <li>Efficient</li>
-          <li>Effective</li>
-        </ul>
-        <p className="sorcerer">Software Sorcerer</p>
+import { nameTest } from "./scripts";
+import React from 'react';
+
+
+export default class Banner extends React.Component {
+
+  render() {
+    return (
+      <div className="banner">
+
+        <div className="titleAndSub">
+          <p className="name" id="name">Nolan Nordwall</p>
+          <p className="sorcerer">Software Sorcerer</p>
+        </div>
+      
+        <div className="bannerText">
+          <ul className="bannerBullets">
+            <li>Effective</li>
+            <li>Energetic</li>
+            <li>Outstanding</li>
+          </ul>
+        </div>
       </div>
       
-    </div>
-   );
+    );
+  }
+  componentDidMount() {
+    nameTest();
+  }
+
 }
- 
-export default Banner;

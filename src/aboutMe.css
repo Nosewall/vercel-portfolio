@@ -1,2 +1,18 @@
 @media only screen and (max-width: 600px) {
+  .aboutMe {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    background-color: #4a5859;
+  }
+
+  .portrait {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .portraitImg {
+    width: 55%;
+    border-radius: 50px;
+  }
 }

@@ -1,0 +1,10 @@
+@media only screen and (max-width: 600px) {
+  .projectsDiv {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    background-color: #4a5859;
+  }
+
+  .projectImg {
+    width: 50%;
+  }
+}

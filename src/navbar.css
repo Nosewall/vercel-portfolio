@@ -1,2 +1,17 @@
 @media only screen and (max-width: 600px) {
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .links a {
+    color: #c83e4d;
+    border-radius: 10%;
+    text-decoration: none;
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-size: larger;
+  }
+  .links a :hover {
+    background-color: #bfacb5;
+  }
 }

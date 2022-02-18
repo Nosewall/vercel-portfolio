@@ -41,7 +41,7 @@ const Projects = () => {
         <img src="Images/SootSleuth.png" alt="Soot Sleuth Logo (And Easter Egg)" className="projectImg"></img>
         <p className="projectDesc">A web app made for school that tracks your carbon footprint and educates you on how to reduce it. Features a leaderboard, user page,
         and fancy graphs!</p>
-        <a href="" className="projectLink"></a>
+        <a href="https://github.com/Nosewall/COMP-2800-Team-BBY-02" className="projectLink">Check your footprint now!</a>
       </div>
 
     </div>
