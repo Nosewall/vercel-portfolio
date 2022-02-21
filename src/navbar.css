@@ -2,7 +2,7 @@
   .links {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .links a {
     color: #c83e4d;
@@ -10,6 +10,7 @@
     text-decoration: none;
     font-family: "IBM Plex Sans Thai Looped", sans-serif;
     font-size: larger;
+    padding: 0;
   }
   .links a :hover {
     background-color: #bfacb5;

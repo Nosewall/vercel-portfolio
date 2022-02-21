@@ -11,7 +11,7 @@
   .name {
     width: 75%;
     margin-top: 50%;
-    margin-left: 15%;
+    margin-left: 0%;
     font-size: 60px;
     font-weight: bold;
     color: #980b1c;
@@ -24,8 +24,12 @@
   }
 
   .sorcerer {
-    width: 100;
+    width: 100%;
     text-align: center;
+  }
+
+  .name p {
+    margin: 0px;
   }
 
   .bannerBullets li {

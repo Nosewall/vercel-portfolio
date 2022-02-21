@@ -1,2 +1,32 @@
 @media only screen and (max-width: 600px) {
+  .contactDiv {
+    height: 100%;
+    background-color: #f4d6cc;
+    padding: 1%;
+  }
+
+  .pingMe {
+    text-align: center;
+    font-size: x-large;
+    width: 70%;
+    background: #ffffffa0;
+    margin: 0 auto;
+    color: black;
+    border-radius: 4px;
+  }
+
+  .contactInfo {
+    color: black;
+    text-align: center;
+  }
+
+  .contactImg {
+    width: 95%;
+  }
+
+  .contactLinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
 }

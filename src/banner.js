@@ -9,7 +9,10 @@ export default class Banner extends React.Component {
       <div className="banner">
 
         <div className="titleAndSub">
-          <p className="name" id="name">Nolan Nordwall</p>
+          <div className="name" id="name">
+            <p><span className="firstName" id="firstName">Nolan</span></p>
+            <p><span className="lastName" id="lastName">Nordwall</span> </p>
+          </div>
           <p className="sorcerer">Software Sorcerer</p>
         </div>
       
