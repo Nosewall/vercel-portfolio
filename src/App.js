@@ -22,7 +22,9 @@ function App() {
       <div className="navbarDiv, fixed-top"><Navbar /></div>
       <div className="content">
         <div className="bannerDiv"><Banner /></div>
-        <div className="aboutMeDiv"><AboutMe /></div>
+        <div
+          id="aboutMeDiv"
+          className="aboutMeDiv"><AboutMe /></div>
         <div className="experienceDiv"><Experience /></div>
         <div className="projectsDiv"><Projects /></div>
         <div className="contactDiv"><Contact /></div>

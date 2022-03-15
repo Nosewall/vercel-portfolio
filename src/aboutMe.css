@@ -35,3 +35,41 @@
     padding: 1px;
   }
 }
+
+.aboutMe {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  background-color: #bdbdbd;
+  padding-bottom: 2%;
+}
+
+.portrait {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.portraitImg {
+  width: 20%;
+  border-radius: 50px;
+  border: 2px solid white;
+}
+
+.whoMe {
+  font-size: 70px;
+  font-family: jetBrains;
+  color: #008612;
+  text-align: center;
+  filter: drop-shadow(3px 3px 2px #ffffff);
+}
+
+.aboutMeBlurb {
+  text-align: center;
+  background-color: #ffffff90;
+  width: 60%;
+  margin: 0 auto;
+  color: black;
+  border-radius: 20px;
+  padding: 1px;
+  font-size: 18px;
+}

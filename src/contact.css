@@ -18,7 +18,7 @@
   }
 
   .contactImg {
-    width: 95%;
+    width: 90%;
   }
 
   .contactLinks {
@@ -26,4 +26,33 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
   }
+}
+.contactDiv {
+  height: 120%;
+  background-color: #aaf1fbe3;
+  padding: 1%;
+}
+
+.pingMe {
+  font-size: 40px;
+  font-family: jetBrains;
+  color: #008612;
+  text-align: center;
+  filter: drop-shadow(3px 3px 2px #ffffff);
+}
+
+.contactInfo {
+  color: black;
+  text-align: center;
+}
+
+.contactImg {
+  width: 50%;
+}
+
+.contactLinks {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
 }

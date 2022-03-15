@@ -38,3 +38,64 @@
     text-align: center;
   }
 }
+
+.experience {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.experienceTitle {
+  font-size: 70px;
+  font-family: jetBrains;
+  color: #008612;
+  text-align: center;
+  filter: drop-shadow(3px 3px 2px #ffffff);
+  width: 100%;
+}
+.java {
+  text-align: center;
+  font-size: 30px;
+}
+
+.skillLists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.skillLists ul {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+.currentSkillsTitle {
+  text-align: center;
+  font-size: 18px;
+}
+
+.skillLists li {
+  padding: 5px;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  font-weight: 900;
+}
+
+.experienceBlurb {
+  font-size: 18px;
+  width: 60%;
+  margin: 0 auto;
+  background-color: #ffffff90;
+  border-radius: 20px;
+}
+
+.futureSkillsDiv p {
+  font-size: 18px;
+  background-color: #ffffff90;
+  border-radius: 20px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 1px;
+}

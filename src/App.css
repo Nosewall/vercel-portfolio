@@ -41,7 +41,24 @@
     grid-template-columns: 100%;
     grid-template-rows: 110vh 100vh 100vh 540vh 35vh 0vh;
   }
-  hr {
-    border: 1px solid white;
-  }
+}
+html {
+  width: 100%;
+}
+body {
+  width: 100%;
+  background-color: #d6d6d6;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 110vh 120vh 110vh 1150vh 35vh 0vh;
+}
+
+.footerDiv {
+  display: none;
 }

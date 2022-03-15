@@ -12,24 +12,24 @@ export default class Banner extends React.Component {
           <div className="name" id="name">
             <motion.div
               transition={{ duration: 1 }}
-              animate={{ y: 0, opacity: 1 }}
-              initial={{ y: -250, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              initial={{ x: -250, opacity: 0 }}
             >
               <p><span className="firstName" id="firstName">Nolan</span></p>
             </motion.div>
 
             <motion.div
               transition={{ duration: 1, delay: .5 }}
-              animate={{ y: 0, opacity: 1 }}
-              initial={{ y: -400, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              initial={{ x: -250, opacity: 0 }}
             >
               <span className="lastName" id="lastName">Nordwall</span>
             </motion.div>
           </div>
           <motion.div
-            transition={{ duration: 1, delay: 1.5 }}
+            transition={{ duration: 1, delay: 1 }}
             animate={{ x: 0, opacity: 1 }}
-            initial={{ x: -250, opacity: 0 }}
+            initial={{ x: 250, opacity: 0 }}
           >
             <p className='sorcerer'>Software Sorcerer</p>
           </motion.div>
