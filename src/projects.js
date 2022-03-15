@@ -156,7 +156,7 @@ const Projects = () => {
                   <p className="projectTagline">The carrot AND The stick</p>
                   </div>
         <img src="Images/GoodCop.png" alt="Good cop bad cop logo" className="projectImg" />
-        <p className="projectDesc">A motivation app made by myyself and my team during term 1 of school. We used Firebase for web hosting, and created a motivational app that was willing to be mean to you if you didn't achieve your goals</p>
+        <p className="projectDesc">A motivation app made by myself and my team during term 1 of school. We used Firebase for web hosting, and created a motivational app that was willing to be mean to you if you didn't achieve your goals</p>
         <a href="https://good-cop-bad-cop-a6d90.web.app/" className="projectLink">Get bullied!</a>
       </div>
         
