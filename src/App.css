@@ -37,9 +37,9 @@
   }
 
   .content {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 110vh 120vh 110vh 1150vh 35vh 0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 
   .footerDiv {
@@ -60,8 +60,8 @@
   }
 
   .content {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 110vh 100vh 100vh 540vh 35vh 0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 }

@@ -1,4 +1,8 @@
 @media only screen and (min-width: 601px) {
+  .aboutMeDiv {
+    height: 100vh;
+  }
+
   .aboutMe {
     font-family: "IBM Plex Sans Thai Looped", sans-serif;
     background-color: #bdbdbd;
@@ -39,6 +43,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .aboutMeDiv {
+    height: 100vh;
+  }
+
   .aboutMe {
     font-family: "IBM Plex Sans Thai Looped", sans-serif;
     background-color: #bdbdbd;

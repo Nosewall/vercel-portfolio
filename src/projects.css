@@ -19,6 +19,7 @@
     width: 40%;
     text-align: center;
     border: 10px solid white;
+    margin: 0 auto;
   }
 
   .project {
@@ -43,6 +44,10 @@
 
   .projectContent {
     text-align: center;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .projectName {
@@ -64,6 +69,8 @@
     text-decoration: none;
     padding: 4px;
     border-radius: 10px;
+    width: 30%;
+    margin: 0 auto;
   }
 
   .projectDesc {
@@ -205,6 +212,7 @@
   .projectImg {
     width: 70%;
     text-align: center;
+    margin: 0 auto;
   }
 
   .project {
@@ -229,6 +237,10 @@
 
   .projectContent {
     text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .projectName {
@@ -245,6 +257,8 @@
     font-size: larger;
     padding: 4px;
     border-radius: 10px;
+    width: 60%;
+    margin: 0 auto;
   }
 
   .projectDesc {
@@ -352,7 +366,7 @@
   .copDiv::before {
     background: #d6d6d6;
     content: "";
-    height: 105%;
+    height: 100%;
     width: 100%;
     top: 0;
     bottom: 0;

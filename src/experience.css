@@ -1,4 +1,8 @@
 @media only screen and (min-width: 601px) {
+  .experienceDiv {
+    height: 100vh;
+  }
+
   .experience {
     font-family: "IBM Plex Sans Thai Looped", sans-serif;
     color: black;
@@ -62,6 +66,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .experienceDiv {
+    height: 100vh;
+  }
+
   .experience {
     font-family: "IBM Plex Sans Thai Looped", sans-serif;
     color: black;

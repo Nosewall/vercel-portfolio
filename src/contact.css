@@ -3,6 +3,7 @@
     height: 120%;
     background-color: #aaf1fbe3;
     padding: 1%;
+    z-index: 1;
   }
 
   .pingMe {
