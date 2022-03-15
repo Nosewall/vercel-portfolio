@@ -24,25 +24,27 @@
   font-style: italic;
 }
 
-html {
-  width: 100%;
-}
-body {
-  width: 100%;
-  background-color: #d6d6d6;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: white;
-}
+@media only screen and (min-width: 601px) {
+  html {
+    width: 100%;
+  }
+  body {
+    width: 100%;
+    background-color: #d6d6d6;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+  }
 
-.content {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 110vh 120vh 110vh 1150vh 35vh 0vh;
-}
+  .content {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 110vh 120vh 110vh 1150vh 35vh 0vh;
+  }
 
-.footerDiv {
-  display: none;
+  .footerDiv {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 600px) {

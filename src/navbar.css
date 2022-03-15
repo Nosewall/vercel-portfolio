@@ -1,18 +1,20 @@
-.links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.links a {
-  color: black;
-  border-radius: 10%;
-  text-decoration: underline;
-  font-family: "jetbrains";
-  font-size: larger;
-  padding: 0;
-}
-.links a:hover {
-  background-color: #b6fdff;
+@media only screen and (min-width: 601px) {
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .links a {
+    color: black;
+    border-radius: 10%;
+    text-decoration: underline;
+    font-family: "jetbrains";
+    font-size: larger;
+    padding: 0;
+  }
+  .links a:hover {
+    background-color: #b6fdff;
+  }
 }
 
 @media only screen and (max-width: 600px) {

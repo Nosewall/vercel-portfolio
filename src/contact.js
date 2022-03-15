@@ -38,10 +38,10 @@ const Contact = () => {
         <img src="/images/email.png" alt="email" className="contactImg"/>
       </a>
       <a href="https://drive.google.com/file/d/1txy6-Ot7Tr1VypftxgarcQIjI8v5mBDh/view?usp=sharing" className="contactLink">
-        <img src="images/attach.png" alt="attachment" className="contactImg"/>
+        <img src="/images/attach.png" alt="attachment" className="contactImg"/>
       </a>
       <a href="https://github.com/Nosewall" className="contactLink">
-        <img src="images/github.png" alt="github" className="contactImg"/>
+        <img src="/images/github.png" alt="github" className="contactImg"/>
       </a>
       </div> 
     </motion.div>

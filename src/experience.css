@@ -1,62 +1,64 @@
-.experience {
-  font-family: "IBM Plex Sans Thai Looped", sans-serif;
-  color: black;
-  text-align: center;
-}
+@media only screen and (min-width: 601px) {
+  .experience {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    color: black;
+    text-align: center;
+  }
 
-.experienceTitle {
-  font-size: 70px;
-  font-family: jetBrains;
-  color: #008612;
-  text-align: center;
-  filter: drop-shadow(3px 3px 2px #ffffff);
-  width: 100%;
-}
-.java {
-  text-align: center;
-  font-size: 30px;
-}
+  .experienceTitle {
+    font-size: 70px;
+    font-family: jetBrains;
+    color: #008612;
+    text-align: center;
+    filter: drop-shadow(3px 3px 2px #ffffff);
+    width: 100%;
+  }
+  .java {
+    text-align: center;
+    font-size: 30px;
+  }
 
-.skillLists {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
+  .skillLists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 
-.skillLists ul {
-  padding: 0;
-  margin: 0;
-  font-size: 18px;
-}
+  .skillLists ul {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+  }
 
-.currentSkillsTitle {
-  text-align: center;
-  font-size: 18px;
-}
+  .currentSkillsTitle {
+    text-align: center;
+    font-size: 18px;
+  }
 
-.skillLists li {
-  padding: 5px;
-  margin: 0;
-  list-style: none;
-  text-align: center;
-  font-weight: 900;
-}
+  .skillLists li {
+    padding: 5px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    font-weight: 900;
+  }
 
-.experienceBlurb {
-  font-size: 18px;
-  width: 60%;
-  margin: 0 auto;
-  background-color: #ffffff90;
-  border-radius: 20px;
-}
+  .experienceBlurb {
+    font-size: 18px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #ffffff90;
+    border-radius: 20px;
+  }
 
-.futureSkillsDiv p {
-  font-size: 18px;
-  background-color: #ffffff90;
-  border-radius: 20px;
-  width: 60%;
-  margin: 0 auto;
-  padding: 1px;
+  .futureSkillsDiv p {
+    font-size: 18px;
+    background-color: #ffffff90;
+    border-radius: 20px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 1px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
