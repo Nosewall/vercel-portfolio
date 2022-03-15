@@ -1,3 +1,20 @@
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.links a {
+  color: black;
+  border-radius: 10%;
+  text-decoration: underline;
+  font-family: "jetbrains";
+  font-size: larger;
+  padding: 0;
+}
+.links a:hover {
+  background-color: #b6fdff;
+}
+
 @media only screen and (max-width: 600px) {
   .links {
     display: flex;
@@ -15,21 +32,4 @@
   .links a :hover {
     background-color: #bfacb5;
   }
-}
-
-.links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.links a {
-  color: black;
-  border-radius: 10%;
-  text-decoration: underline;
-  font-family: "jetbrains";
-  font-size: larger;
-  padding: 0;
-}
-.links a:hover {
-  background-color: #b6fdff;
 }

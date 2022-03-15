@@ -1,3 +1,8 @@
+.footerDiv {
+  color: black;
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   .footerDiv {
     color: black;
