@@ -1,11 +1,8 @@
 @media only screen and (max-width: 600px) {
-  .bannerDiv {
-    height: 100%;
-  }
-
   .banner {
     font-family: jetBrains;
     margin: 3px;
+    color: black;
   }
 
   .name {
@@ -14,7 +11,7 @@
     margin-left: 0%;
     font-size: 60px;
     font-weight: bold;
-    color: #980b1c;
+    color: #5cdfe4;
     filter: drop-shadow(3px 3px 2px #ffffff);
   }
 
@@ -26,6 +23,8 @@
   .sorcerer {
     width: 100%;
     text-align: center;
+    color: green;
+    filter: drop-shadow(3px 3px 2px #ffffff);
   }
 
   .name p {
@@ -35,7 +34,7 @@
   .bannerBullets li {
     list-style-type: square;
     padding-top: 30px;
-    padding: 0%;
+    padding: 5%;
     margin: 0%;
   }
 }

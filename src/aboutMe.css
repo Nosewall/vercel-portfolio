@@ -1,7 +1,8 @@
 @media only screen and (max-width: 600px) {
   .aboutMe {
     font-family: "IBM Plex Sans Thai Looped", sans-serif;
-    background-color: #4a5859;
+    background-color: #bdbdbd;
+    padding-bottom: 2%;
   }
 
   .portrait {
@@ -14,5 +15,23 @@
   .portraitImg {
     width: 55%;
     border-radius: 50px;
+    border: 2px solid white;
+  }
+
+  .whoMe {
+    font-family: jetBrains;
+    color: #008612;
+    text-align: center;
+    filter: drop-shadow(3px 3px 2px #ffffff);
+  }
+
+  .aboutMeBlurb {
+    text-align: center;
+    background-color: #ffffff90;
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+    border-radius: 20px;
+    padding: 1px;
   }
 }

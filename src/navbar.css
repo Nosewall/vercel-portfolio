@@ -5,9 +5,9 @@
     justify-content: space-evenly;
   }
   .links a {
-    color: #c83e4d;
+    color: black;
     border-radius: 10%;
-    text-decoration: none;
+    text-decoration: underline;
     font-family: "IBM Plex Sans Thai Looped", sans-serif;
     font-size: larger;
     padding: 0;
