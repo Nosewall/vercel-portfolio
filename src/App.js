@@ -4,7 +4,6 @@ import './navbar.css';
 import './aboutMe.css';
 import './contact.css';
 import './experience.css';
-import './footer.css';
 import './projects.css';
 import 'bootstrap';
 
@@ -12,7 +11,6 @@ import Navbar from './navbar';
 import Contact from './contact';
 import Experience from './experience';
 import AboutMe from './aboutMe';
-import Footer from './footer';
 import Banner from './banner';
 import Projects from './projects';
 
@@ -28,7 +26,6 @@ function App() {
         <div className="experienceDiv"><Experience /></div>
         <div className="projectsDiv"><Projects /></div>
         <div className="contactDiv"><Contact /></div>
-        <div className="footerDiv"><Footer/></div>
       </div>
     </div>
   );

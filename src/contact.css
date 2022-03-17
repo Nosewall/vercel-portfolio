@@ -1,9 +1,10 @@
 @media only screen and (min-width: 601px) {
   .contactDiv {
-    height: 120%;
+    height: 50vh;
     background-color: #aaf1fbe3;
     padding: 1%;
     z-index: 1;
+    margin-top: 100px;
   }
 
   .pingMe {
@@ -17,6 +18,7 @@
   .contactInfo {
     color: black;
     text-align: center;
+    font-size: 18px;
   }
 
   .contactImg {
@@ -33,9 +35,10 @@
 
 @media only screen and (max-width: 600px) {
   .contactDiv {
-    height: 100%;
+    height: 40vh;
     background-color: #aaf1fbe3;
     padding: 1%;
+    margin-top: 10vh;
   }
 
   .pingMe {

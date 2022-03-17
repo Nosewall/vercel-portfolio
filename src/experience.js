@@ -56,7 +56,7 @@ const Experience = () => {
       >
         <div className="titleBanner">        <h1 className="experienceTitle">Experience</h1></div>
 
-        <p className="java"><i>My first language is java</i></p>
+        <p className="java"><i>My first language is Java</i></p>
       </motion.div>
       
       
@@ -66,7 +66,7 @@ const Experience = () => {
         initial="hidden"
         variants={appearInViewTopDown}
       >
-         <p className="experienceBlurb">I'm currently enrolled at BCIT for my Computer Systems Technology diploma, which I'll be finishing in Jan 2022. I've participated in a handful of Hackathons and a few independant projects. I have a passion for all things creative and expressive, and a history in leadership positions. Now in school , I've been elected as the Chair of the School of Computing for the BCIT Student Association. </p>
+         <p className="experienceBlurb">I'm currently enrolled at BCIT for my Computer Systems Technology diploma, which I'll be finishing in Jan 2023. I've participated in a handful of Hackathons and a few independant projects. I have a passion for all things creative and expressive, and a history in leadership positions. Now in school, I've been elected as the Chair of the School of Computing for the BCIT Student Association. </p>
 
           <p className="currentSkillsTitle">Here are the technologies that I'm most comfortable with</p>
       </motion.div>
@@ -99,7 +99,7 @@ const Experience = () => {
       </div>
 
       <div className="futureSkillsDiv">
-        <p>I'm working on learning about building intelligent agents in my AI specialization, and I'm excited to learn a ton more about the industry and all that I could create.</p>
+        <p>I'm also learning about building intelligent agents in my AI specialization, and I'm excited to learn more about the industry and all that I can create.</p>
       </div>
       </motion.div>
       
