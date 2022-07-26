@@ -75,6 +75,12 @@ const AboutMe = () => {
       <p>Hi there! I'm a computer science student and well rounded software guy based in Burnaby BC. I specialize in front-end web development, but I'm interested in tons of different technologies.</p>
       <p>I'm always looking for novel things to build and great people to work with. If you think I'd be a good fit for your team, feel free to shoot me a message via any of the links below. Looking forward to adding a personal flair to your projects.</p>
       </div></motion.div>
+
+      <div>
+      <iframe width="620px" height="563px" src="https://www.yumpu.com/en/embed/view/FLeO2xIED1BdHbtp" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe>
+      <br/>
+      <a href="https://www.yumpu.com/en/document/view/67098904/strategic-vision-2019-2020-p" title="Strategic-Vision-2019-2020-P" target="_blank">Strategic-Vision-2019-2020-P</a>
+      </div>
       
     </div>
   );
