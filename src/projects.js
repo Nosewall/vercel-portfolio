@@ -9,11 +9,17 @@ const Projects = () => {
   const controls3 = useAnimation();
   const controls4 = useAnimation();
   const controls5 = useAnimation();
+  const controls6 = useAnimation();
+  const controls7 = useAnimation();
+  const controls8 = useAnimation();
   const [ref1, inView1] = useInView();
   const [ref2, inView2] = useInView();
   const [ref3, inView3] = useInView();
   const [ref4, inView4] = useInView();
   const [ref5, inView5] = useInView();
+  const [ref6, inView6] = useInView();
+  const [ref7, inView7] = useInView();
+  const [ref8, inView8] = useInView();
 
   const appearInViewTopDown = {
     visible: { opacity: 1, y: 0, transition: { duration: 1 } },
@@ -65,15 +71,87 @@ const Projects = () => {
     }
   }, [controls5, inView5]);
 
+  useEffect(() => {
+    if (inView6) {
+      controls6.start("visible");
+    }
+    if (!inView6) {
+      controls6.start("hidden");
+    }
+  }, [controls6, inView6]);
+
+  useEffect(() => {
+    if (inView7) {
+      controls7.start("visible");
+    }
+    if (!inView7) {
+      controls7.start("hidden");
+    }
+  }, [controls7, inView7]);
+
+  useEffect(() => {
+    if (inView8) {
+      controls8.start("visible");
+    }
+    if (!inView8) {
+      controls8.start("hidden");
+    }
+  }, [controls8, inView8]);
+
 
   return (
     <div className="Projects">
       <h1 className="projectsTitle">Projects!</h1>
 
-
       <motion.div
         animate={controls1}
         ref={ref1}
+        initial="hidden"
+        variants={appearInViewTopDown} className="project foodDiv">
+          <div className="projectContent">
+            <div className="projectNameAndDesc">
+              <p className="projectName">Community Food Network</p>
+              <p className="projectTagline">Food Support Resources for all students in the lower mainland</p>
+            </div>
+            <img src="Images/food.png" alt="Food Network Card" className="projectImg" />
+            <p className="projectDesc">A website for all student in the lower mainland to find a wide variety of food support resources available to them</p>
+            <a href="https://foodnetwork.bcitsa.ca/" className="projectLink">Hungry?</a>
+          </div>
+        </motion.div>
+
+        <motion.div
+        animate={controls2}
+        ref={ref2}
+        initial="hidden"
+        variants={appearInViewTopDown} className="project hogDiv">
+          <div className="projectContent">
+            <div className="projectNameAndDesc">
+              <p className="projectName">Hedgehog Honeymoon</p>
+              <p className="projectTagline">Collect all the hoggers!</p>
+            </div>
+            <img src="Images/hog.png" alt="Hedgehog card" className="projectImg" />
+            <p className="projectDesc">An Android Incremental game made with Koitlen and Android Studio all about collecting as many hedgehogs as you can! The game is fully complete with an options menu, music, and ten story events.</p>
+            <a href="https://github.com/winter2022-comp3717/project-team-hedgehogs" className="projectLink">Grab those hogs!</a>
+          </div>
+        </motion.div>
+
+        <motion.div
+        animate={controls3}
+        ref={ref3}
+        initial="hidden"
+        variants={appearInViewTopDown} className="project reviewDiv">
+          <div className="projectContent">
+            <div className="projectNameAndDesc">
+              <p className="projectName">Leblanc 360</p>
+              <p className="projectTagline">360 Review Software currently on the market</p>
+            </div>
+            <img src="Images/360.png" alt="Leblanc 360 Logo" className="projectImg" />
+            <p className="projectDesc">As a practicum prject at BCIT, my team and I created 360 review software for Leblanc Leadership Group. We created custom survey software with a friendly user interface to edit the surveys, plus a automated report generator that created useful insights from all the data collected</p>          </div>
+        </motion.div>
+
+      <motion.div
+        animate={controls4}
+        ref={ref4}
         initial="hidden"
         variants={appearInViewTopDown}
         className="project catDiv">
@@ -91,8 +169,8 @@ const Projects = () => {
       
       
       <motion.div
-        animate={controls2}
-        ref={ref2}
+        animate={controls5}
+        ref={ref5}
         initial="hidden"
         variants={appearInViewTopDown}
         className="project farmDiv">
@@ -111,8 +189,8 @@ const Projects = () => {
       
       
          <motion.div
-        animate={controls3}
-        ref={ref3}
+        animate={controls6}
+        ref={ref6}
         initial="hidden"
         variants={appearInViewTopDown} className="project tareDiv">
           <div className="projectContent">
@@ -129,8 +207,8 @@ const Projects = () => {
       
       
         <motion.div
-        animate={controls4}
-        ref={ref4}
+        animate={controls7}
+        ref={ref7}
         initial="hidden"
         variants={appearInViewTopDown} className="project sootDiv">
             <div className="projectContent">
@@ -146,8 +224,8 @@ const Projects = () => {
       
       
       <motion.div
-        animate={controls5}
-        ref={ref5}
+        animate={controls8}
+        ref={ref8}
         initial="hidden"
         variants={appearInViewTopDown} className="project copDiv">
               <div className="projectContent">

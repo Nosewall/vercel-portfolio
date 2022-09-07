@@ -84,6 +84,78 @@
     font-size: 18px;
   }
 
+  .foodDiv {
+    z-index: 1;
+    padding-top: 0;
+    margin-top: 0;
+    justify-content: start;
+    margin-bottom: 0;
+  }
+
+  .foodDiv::before {
+    background: #c3f6ff;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    position: absolute;
+
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 75%);
+  }
+
+  .hogDiv {
+    z-index: 1;
+    padding-top: 0;
+    margin-top: 0;
+    justify-content: start;
+    margin-bottom: 0;
+  }
+
+  .hogDiv::before {
+    background: #d6d6d6;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    position: absolute;
+
+    clip-path: polygon(0 0, 100% 25%, 100% 75%, 0 100%);
+  }
+
+  .reviewDiv {
+    z-index: 1;
+    padding-top: 0;
+    margin-top: 0;
+    justify-content: start;
+    margin-bottom: 0;
+  }
+
+  .reviewDiv::before {
+    background: #c3f6ff;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    position: absolute;
+
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 75%);
+  }
+
   .catDiv {
     z-index: 1;
     padding-top: 0;
@@ -105,7 +177,7 @@
 
     position: absolute;
 
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 25%, 100% 75%, 0 100%);
   }
 
   .farmDiv {
@@ -271,6 +343,79 @@
     padding-right: 2%;
   }
 
+  .foodDiv {
+    z-index: 1;
+    padding-top: 0;
+    margin-top: 0;
+    justify-content: start;
+    margin-bottom: 0;
+    background-color:red;
+  }
+
+  .foodDiv::before {
+    background: #c3f6ff;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    position: absolute;
+
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 75%);
+  }
+
+  .hogDiv {
+    z-index: 1;
+    padding-top: 0;
+    margin-top: 0;
+    justify-content: start;
+    margin-bottom: 0;
+  }
+
+  .hogDiv::before {
+    background: #d6d6d6;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    position: absolute;
+
+    clip-path: polygon(0 0, 100% 25%, 100% 75%, 0 100%);
+  }
+
+  .reviewDiv {
+    z-index: 1;
+    padding-top: 0;
+    margin-top: 0;
+    justify-content: start;
+    margin-bottom: 0;
+  }
+
+  .reviewDiv::before {
+    background: #c3f6ff;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    position: absolute;
+
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 75%);
+  }
+
   .catDiv {
     z-index: 1;
     padding-top: 0;
@@ -292,7 +437,7 @@
 
     position: absolute;
 
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 25%, 100% 75%, 0 100%);
   }
 
   .farmDiv {
