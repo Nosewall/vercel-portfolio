@@ -37,7 +37,7 @@ const Contact = () => {
       <a href="mailto::nolannordwall@gmail.com" className="contactLink">
         <img src="Images/email.png" alt="email" className="contactImg"/>
       </a>
-      <a href="https://drive.google.com/file/d/1txy6-Ot7Tr1VypftxgarcQIjI8v5mBDh/view?usp=sharing" className="contactLink">
+      <a href="https://drive.google.com/file/d/1-7E6UK45Rk7wp5275yMbQ_0KJZYnbpkM/view?usp=sharing" className="contactLink">
         <img src="Images/attach.png" alt="attachment" className="contactImg"/>
       </a>
       <a href="https://github.com/Nosewall" className="contactLink">
