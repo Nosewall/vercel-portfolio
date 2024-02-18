@@ -64,7 +64,7 @@ const AboutMe = () => {
         variants={appearInViewTopDown}
       >
         <div className="portrait">
-        <img className="portraitImg" src="Images/portrait.png" alt="portrait of me" />
+        <img className="portraitImg" src="Images/portrait.jpg" alt="portrait of me" />
       </div></motion.div>
       <motion.div
         animate={controls3}
